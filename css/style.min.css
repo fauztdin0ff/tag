@@ -644,12 +644,6 @@ main {
   white-space: nowrap;
   border-right: 4px solid transparent;
 }
-@media (max-width: 600px) {
-  .typing-text {
-    animation: typingMobile 4s steps(50, end), blink-caret 0.75s step-end infinite;
-    animation-iteration-count: infinite;
-  }
-}
 
 /* Анимация мигания курсора */
 @keyframes blink-caret {
@@ -657,7 +651,7 @@ main {
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: coral;
   }
 }
 .light-theme .home {
@@ -671,7 +665,7 @@ main {
   background-color: coral;
 }
 .light-theme .home__button a::after {
-  border: 1px solid #ccc;
+  border: 1px solid #686868;
 }
 .light-theme .home__button a:hover::after {
   border: 1px solid coral;
