@@ -10,7 +10,10 @@
    <title>TAG company</title>
 </head>
 
-<body>
+<body class="_preloader">
+   <div class="preloader " style="display: block;">
+      <div class="loader-bar" style="display: block;"></div>
+   </div>
    <div class="wrapper">
       <div class="bgline1"></div>
       <div class="bgline2"></div>
@@ -19,7 +22,7 @@
       <header class="header">
    <div class="header__body container">
       <div class="header__logo">
-         <a href="">#TAG</a>
+         <a href="index.html">#TAG</a>
       </div>
       <div class="header__menu menu">
          <div class="menu__icon">
@@ -27,10 +30,10 @@
          </div>
          <nav class="menu__body">
             <ul class="menu__list">
-               <li><a href="" class="menu__link active" data-title="Главная"><span>Главная</span></a></li>
-               <li><a href="" class="menu__link" data-title="Кейсы"><span>Кейсы</span></a></li>
-               <li><a href="" class="menu__link" data-title="Обо мне"><span>Обо мне</span></a></li>
-               <li><a href="" class="menu__link" data-title="Контакты"><span>Контакты</span></a></li>
+               <li><a href="index.html" class="menu__link active" data-title="Главная"><span>Главная</span></a></li>
+               <li><a href="cases.html" class="menu__link" data-title="Работы"><span>Работы</span></a></li>
+               <li><a href="about.html" class="menu__link" data-title="Обо мне"><span>Обо мне</span></a></li>
+               <li><a href="contacts.html" class="menu__link" data-title="Контакты"><span>Контакты</span></a></li>
             </ul>
 
             <div class="toggle-theme">
@@ -230,18 +233,19 @@
             <div class="experience__body container">
                <div class="experience__details">
                   <div class="experience__item">
-                     <p>4+</p>
+                     <p><span class="counter" data-target="4">0</span>+</p>
                      <p>года опыта разработки</p>
                   </div>
                   <div class="experience__item">
-                     <p>23+</p>
+                     <p><span class="counter" data-target="23">0</span>+</p>
                      <p>выполненных проектов</p>
                   </div>
                   <div class="experience__item">
-                     <p>11+</p>
+                     <p><span class="counter" data-target="11">0</span>+</p>
                      <p>постоянных клиентов</p>
                   </div>
                </div>
+
             </div>
          </div>
          <section class="portf">
@@ -586,7 +590,24 @@
             </form>
          </div>
       </main>
-      <footer></footer>
+      <footer class="footer">
+   <div class="footer__body container">
+      <div class="footer__menu">
+         <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="cases.html">Работы</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+         </ul>
+      </div>
+      <div class="header__logo">
+         <a href="index.html">#TAG</a>
+      </div>
+   </div>
+   <div class="copyright">
+      <p>© Copyright. All Rights Reserved</p>
+   </div>
+</footer>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script src="js/app.min.js"></script>
    </div>
