@@ -661,7 +661,7 @@ main {
 
 .home {
   background: url("../img/main-bg.png") center/cover no-repeat;
-  min-height: 100dvh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -938,7 +938,7 @@ main {
   }
 }
 .light-theme .home {
-  background: url("../img/test2.png") center/cover no-repeat;
+  background: url("../img/main-bg-white.png") center/cover no-repeat;
 }
 @media (max-width: 800px) {
   .light-theme .home {
