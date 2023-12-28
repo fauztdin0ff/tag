@@ -2460,6 +2460,13 @@ main {
   }
 }
 
+.webp .home {
+  background: url(../img/main-bg.webp) center/cover no-repeat;
+}
+
+.light-theme .home {
+  background: url(../img/main-bg-white.webp) center/cover no-repeat;
+}
 @media (max-width: 900px) {
   .experience__details {
     -ms-flex-wrap: wrap;
@@ -2665,8 +2672,13 @@ main {
   .light-theme .menu__icon._active::after {
     background-color: #1d1d1d;
   }
+  .webp .home {
+    background: url(../img/main-bg.webp) center/cover no-repeat;
+    background-position: 80% 50%;
+  }
 
-  .home {
+  .light-theme .home {
+    background: url(../img/main-bg-white.webp) center/cover no-repeat;
     background-position: 80% 50%;
   }
 
@@ -2874,14 +2886,6 @@ main {
   .menu__list {
     gap: calc(8px + 0 * ((100vw - 320px) / 880));
   }
-}
-
-.webp .home {
-  background: url(../img/main-bg.webp) center/cover no-repeat;
-}
-
-.light-theme .home {
-  background: url(../img/main-bg-white.webp) center/cover no-repeat;
 }
 
 .light-theme .who {
