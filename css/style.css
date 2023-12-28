@@ -1749,8 +1749,8 @@ main {
 }
 
 .testimonial__author-img {
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 
@@ -1765,15 +1765,19 @@ main {
   margin-bottom: 20px;
 }
 
-.testimonial__author-name p {
+.testimonial__author-name p:first-child {
   font-size: 16px;
   color: #fff;
-  margin-bottom: 7px;
+}
+
+.testimonial__author-name p:nth-child(2) {
+  font-size: 14px;
+  color: #fff;
 }
 
 .testimonial__author-name span {
   font-size: 14px;
-  color: #ddd;
+  color: #777;
 }
 
 .testimonial__icon {
