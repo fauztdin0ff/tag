@@ -5,8 +5,8 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20231228102722" />
+   <link rel="stylesheet" href="css/style.css">
    <title>TAG company</title>
 </head>
 
@@ -20,32 +20,33 @@
       <div class="bgline3"></div>
       <div class="bgline4"></div>
       <header class="header">
-   <div class="header__body container">
-      <div class="header__logo">
-         <a href="index.html">#TAG</a>
-      </div>
-      <div class="header__menu menu">
-         <div class="menu__icon">
-            <span></span>
-         </div>
-         <nav class="menu__body">
-            <ul class="menu__list">
-               <li><a href="index.html" class="menu__link active" data-title="Главная"><span>Главная</span></a></li>
-               <li><a href="cases.html" class="menu__link" data-title="Работы"><span>Работы</span></a></li>
-               <li><a href="about.html" class="menu__link" data-title="Обо мне"><span>Обо мне</span></a></li>
-               <li><a href="contacts.html" class="menu__link" data-title="Контакты"><span>Контакты</span></a></li>
-            </ul>
-
-            <div class="toggle-theme">
-               <label class="switch" for="toggle">
-                  <input type="checkbox" id="toggle">
-                  <div class="slider left"></div>
-               </label>
+         <div class="header__body container">
+            <div class="header__logo">
+               <a href="index.html">#TAG</a>
             </div>
-         </nav>
-      </div>
-   </div>
-</header>
+            <div class="header__menu menu">
+               <div class="menu__icon">
+                  <span></span>
+               </div>
+               <nav class="menu__body">
+                  <ul class="menu__list">
+                     <li><a href="index.html" class="menu__link active" data-title="Главная"><span>Главная</span></a>
+                     </li>
+                     <li><a href="cases.html" class="menu__link" data-title="Работы"><span>Работы</span></a></li>
+                     <li><a href="about.html" class="menu__link" data-title="Обо мне"><span>Обо мне</span></a></li>
+                     <li><a href="contacts.html" class="menu__link" data-title="Контакты"><span>Контакты</span></a></li>
+                  </ul>
+
+                  <div class="toggle-theme">
+                     <label class="switch" for="toggle">
+                        <input type="checkbox" id="toggle">
+                        <div class="slider left"></div>
+                     </label>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>
       <main>
          <div class="socials">
             <div class="socials__text">Follow Me</div>
@@ -85,16 +86,16 @@
                   <h3>Я делаю сложное простым.</h3>
                </div>
                <div class="home__button">
-                  <a href="">Связаться</a>
+                  <a href="https://t.me/fauztdin0ff">Связаться</a>
                </div>
                <div class="home__infoblock infoblock">
                   <div class="infoblock__item">
                      <h5>Email</h5>
-                     <a href="">fauztdinov@gmail.com</a>
+                     <a href="mailto:fauztdinov@gmail.com">fauztdinov@gmail.com</a>
                   </div>
                   <div class="infoblock__item">
                      <h5>Телефон</h5>
-                     <a href="">+998 90 119 26 20</a>
+                     <a href="tel:+998901192620">+998 90 119 26 20</a>
                   </div>
                   <div class="infoblock__item">
                      <h5>Локация</h5>
@@ -112,7 +113,9 @@
          <section class="who">
             <div class="who__body container">
                <div class="who__image">
-                  <img src="img/iam.png" alt="I am">
+                  <picture>
+                     <source srcset="img/iam.webp" type="image/webp"><img src="img/iam.png" alt="I am">
+                  </picture>
                </div>
                <div class="who__content">
                   <div class="who__title">Кто Я?</div>
@@ -254,9 +257,12 @@
                   <h4 data-title="Работы">Работы</h4>
                </div>
                <div class="portf__grid">
-                  <a href="" class="portf__item">
+                  <a href="chillout/" class="portf__item">
                      <div class="portf__img">
-                        <img src="img/portfolio/chillout.png" alt="item">
+                        <picture>
+                           <source srcset="img/portfolio/chillout.webp" type="image/webp"><img
+                              src="img/portfolio/chillout.png" alt="item">
+                        </picture>
                         <div class="portf__details">
                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                               class="bi bi-app-indicator" viewBox="0 0 16 16">
@@ -269,9 +275,12 @@
                      </div>
                      <p>Сайт ресторана</p>
                   </a>
-                  <a href="" class="portf__item">
+                  <a href="crossmag/" class="portf__item">
                      <div class="portf__img">
-                        <img src="img/portfolio/crossmag.png" alt="item">
+                        <picture>
+                           <source srcset="img/portfolio/crossmag.webp" type="image/webp"><img
+                              src="img/portfolio/crossmag.png" alt="item">
+                        </picture>
                         <div class="portf__details">
                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                               class="bi bi-app-indicator" viewBox="0 0 16 16">
@@ -284,9 +293,12 @@
                      </div>
                      <p>Интернет магазин</p>
                   </a>
-                  <a href="" class="portf__item">
+                  <a href="follower" class="portf__item">
                      <div class="portf__img">
-                        <img src="img/portfolio/follower.png" alt="item">
+                        <picture>
+                           <source srcset="img/portfolio/follower.webp" type="image/webp"><img
+                              src="img/portfolio/follower.png" alt="item">
+                        </picture>
                         <div class="portf__details">
                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                               class="bi bi-app-indicator" viewBox="0 0 16 16">
@@ -395,7 +407,9 @@
                               <div class="testimonial__title">
                                  <div class="testimonial__author">
                                     <div class="testimonial__author-img">
-                                       <img src="img/man.png" alt="">
+                                       <picture>
+                                          <source srcset="img/man.webp" type="image/webp"><img src="img/man.png" alt="">
+                                       </picture>
                                     </div>
                                     <div class="testimonial__author-name">
                                        <p>Юлия Сакура</p>
@@ -436,7 +450,9 @@
                               <div class="testimonial__title">
                                  <div class="testimonial__author">
                                     <div class="testimonial__author-img">
-                                       <img src="img/man.png" alt="">
+                                       <picture>
+                                          <source srcset="img/man.webp" type="image/webp"><img src="img/man.png" alt="">
+                                       </picture>
                                     </div>
                                     <div class="testimonial__author-name">
                                        <p>Юлия Сакура</p>
@@ -473,7 +489,9 @@
                               <div class="testimonial__title">
                                  <div class="testimonial__author">
                                     <div class="testimonial__author-img">
-                                       <img src="img/man.png" alt="">
+                                       <picture>
+                                          <source srcset="img/man.webp" type="image/webp"><img src="img/man.png" alt="">
+                                       </picture>
                                     </div>
                                     <div class="testimonial__author-name">
                                        <p>Юлия Сакура</p>
@@ -511,7 +529,9 @@
                               <div class="testimonial__title">
                                  <div class="testimonial__author">
                                     <div class="testimonial__author-img">
-                                       <img src="img/man.png" alt="">
+                                       <picture>
+                                          <source srcset="img/man.webp" type="image/webp"><img src="img/man.png" alt="">
+                                       </picture>
                                     </div>
                                     <div class="testimonial__author-name">
                                        <p>Юлия Сакура</p>
@@ -591,25 +611,25 @@
          </div>
       </main>
       <footer class="footer">
-   <div class="footer__body container">
-      <div class="footer__menu">
-         <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="cases.html">Работы</a></li>
-            <li><a href="about.html">Обо мне</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-         </ul>
-      </div>
-      <div class="header__logo">
-         <a href="index.html">#TAG</a>
-      </div>
-   </div>
-   <div class="copyright">
-      <p>© Copyright. All Rights Reserved</p>
-   </div>
-</footer>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      <script src="js/app.min.js"></script>
+         <div class="footer__body container">
+            <div class="footer__menu">
+               <ul>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="cases.html">Работы</a></li>
+                  <li><a href="about.html">Обо мне</a></li>
+                  <li><a href="contacts.html">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="header__logo">
+               <a href="index.html">#TAG</a>
+            </div>
+         </div>
+         <div class="copyright">
+            <p>© Copyright. All Rights Reserved</p>
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20231228102722"></script>
+      <script src="js/app.min.js?_v=20231228102722"></script>
    </div>
 </body>
 
